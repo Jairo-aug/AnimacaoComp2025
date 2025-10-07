@@ -44,7 +44,9 @@ Principais scripts e suas funções:
 
 ## 🔗 Link para a Build
 Acesse a versão WebGL:  
-[**Itch.io - Animação com Espectro Sonoro**](https://jairo-augusto.itch.io/projeto-espectro-sonoro)
+[**Itch.io - Animação com Espectro Sonoro**](https://jairo-augusto.itch.io/projetos-animacao-computadorizada)
+
+Música Usada: Syn Cole - Feel Good | Future House | NCS - Copyright Free Music
 
 ---
 
