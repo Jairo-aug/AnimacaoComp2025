@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: 649a6cc43ee19a34ea9ab7446f559c84
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'dir_Ombrin' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rebolada
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 456
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Coluna01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_Pernoca
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dir_Pernoca
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_Joelheira
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dir_Joelheira
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_Aquiles
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dir_Aquiles
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coluna02
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coluna03
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_Ombrin
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dir_Cutuvas
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_Cutuvas
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dir_exPulso
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_exPulso
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint11
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint1
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint21
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: esq_Pezin
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: dir_Pezin
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coluna04
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cabecote
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pescotapa
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Capoeira(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder1
+      parentName: Capoeira(Clone)
+      position: {x: 0.005848758, y: 0.007816083, z: 0.00014743178}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.25530866, y: 0.5185185, z: 0.3111111}
+    - name: transform5
+      parentName: pCylinder1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left1
+      parentName: Capoeira(Clone)
+      position: {x: 10.002146, y: 0.05653331, z: 0.0076179304}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder2
+      parentName: Capoeira(Clone)
+      position: {x: 0.0035442456, y: 0.008691174, z: -0.0008680105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.6666667, y: 0.6470877, z: 1}
+    - name: transform9
+      parentName: pCylinder2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder3
+      parentName: Capoeira(Clone)
+      position: {x: 0.0051685954, y: 0.0040660948, z: -0.00042599696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.6444445, y: 0.7540631, z: 1.4760494}
+    - name: transform8
+      parentName: pCylinder3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: Capoeira(Clone)
+      position: {x: 0.0055217505, y: 0.00066628, z: 0.002784414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3402469, y: 1.6555061, z: 1.6397934}
+    - name: transform6
+      parentName: pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder4
+      parentName: Capoeira(Clone)
+      position: {x: 0.0009703636, y: 0.02394179, z: -0.0008976913}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.95555556, y: 2.0186996, z: 1}
+    - name: transform13
+      parentName: pCylinder4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder5
+      parentName: Capoeira(Clone)
+      position: {x: 0.005265684, y: 0.015108292, z: -0.00010902006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0676544, y: 0.93333334, z: 1.4444444}
+    - name: transform3
+      parentName: pCylinder5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1
+      parentName: Capoeira(Clone)
+      position: {x: 0.00060170394, y: 0.044252098, z: 0.0019412182}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1614815, y: 1.0222222, z: 1.2266667}
+    - name: transform1
+      parentName: pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder6
+      parentName: Capoeira(Clone)
+      position: {x: 0.00065286946, y: 0.03815085, z: -0.00033334235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3111111, y: 0.65039396, z: 1.0888889}
+    - name: transform12
+      parentName: pCylinder6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder7
+      parentName: Capoeira(Clone)
+      position: {x: 0.01562073, y: 0.03317533, z: -0.00005784471}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.7248066, y: 0.4829264, z: 0.825679}
+    - name: transform11
+      parentName: pCylinder7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere2
+      parentName: Capoeira(Clone)
+      position: {x: 0.005583542, y: 0.0020049543, z: 0.0057602483}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform10
+      parentName: pSphere2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder8
+      parentName: Capoeira(Clone)
+      position: {x: 0.026827669, y: 0.034324612, z: -0.00014465077}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.45078862, y: 0.6582716, z: 0.93135804}
+    - name: transform2
+      parentName: pCylinder8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder9
+      parentName: Capoeira(Clone)
+      position: {x: 0.025240667, y: 0.032120753, z: 0.0030138856}
+      rotation: {x: 0.7639886, y: 0.6011895, z: 0.12619558, w: -0.19740129}
+      scale: {x: 0.62222224, y: 0.39873803, z: 1}
+    - name: transform7
+      parentName: pCylinder9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder10
+      parentName: Capoeira(Clone)
+      position: {x: 0.024254495, y: 0.03292528, z: -0.00034846726}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 0.4448709, y: 0.49613485, z: 0.33011866}
+    - name: transform4
+      parentName: pCylinder10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder11
+      parentName: Capoeira(Clone)
+      position: {x: 0.010921202, y: 0.026265068, z: 0.0015067839}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform14
+      parentName: pCylinder11
+      position: {x: -0.010921202, y: -0.026265068, z: -0.0015067839}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bottom1
+      parentName: Capoeira(Clone)
+      position: {x: 0.005299054, y: -10.001003, z: -0.00013175576}
+      rotation: {x: 0, y: -0.7071068, z: -0.7071068, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - name: top1
+      parentName: Capoeira(Clone)
+      position: {x: 0.025906939, y: 10.006758, z: 0.0010391907}
+      rotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface50
+      parentName: Capoeira(Clone)
+      position: {x: -0, y: 0.00018574925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorMestre1
+      parentName: Capoeira(Clone)
+      position: {x: 0.00039407198, y: 0.00010161707, z: 0.00016402299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorMestre
+      parentName: ControladorMestre1
+      position: {x: -0, y: 0.019588443, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorCutuveloEsq
+      parentName: ControladorMestre
+      position: {x: -0.015096683, y: 0.015746547, z: -0.016252078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorCutuveloDir
+      parentName: ControladorMestre
+      position: {x: 0.015243799, y: 0.015746547, z: -0.01624815}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorPulsoDir
+      parentName: ControladorMestre
+      position: {x: 0.023396265, y: 0.01385694, z: -0.00041891262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle20
+      parentName: ControladorPulsoDir
+      position: {x: 0.0025821363, y: 0.00007267247, z: -0.00048417668}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle18
+      parentName: ControladorPulsoDir
+      position: {x: 0.0056587127, y: 0.00010229718, z: -0.00083207875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle15
+      parentName: ControladorPulsoDir
+      position: {x: 0.0000000011753083, y: -8.753344e-10, z: -1.5903093e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorPulsoEsq
+      parentName: ControladorMestre
+      position: {x: -0.023271237, y: 0.013856947, z: -0.00047451688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle3
+      parentName: ControladorPulsoEsq
+      position: {x: -5.3696162e-11, y: 0.0000000011601198, z: -4.727662e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle4
+      parentName: ControladorPulsoEsq
+      position: {x: -0.0054278034, y: 0.00003006956, z: -0.00089307834}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle19
+      parentName: ControladorPulsoEsq
+      position: {x: -0.0023828635, y: 0.0000878193, z: -0.00093035045}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorCabecote
+      parentName: ControladorMestre
+      position: {x: -0, y: 0.016042838, z: -0.0006340631}
+      rotation: {x: 0, y: -0.032532852, z: -0, w: 0.99947065}
+      scale: {x: 1.1555737, y: 1, z: 1.5632421}
+    - name: ikHandle9
+      parentName: ControladorCabecote
+      position: {x: 0.000049226754, y: 0.009363656, z: 0.0005115257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coluna01
+      parentName: ControladorMestre
+      position: {x: -0.00039407384, y: -0.0029265508, z: -0.0019818102}
+      rotation: {x: 0.5681758, y: -0.53001, z: 0.46806988, w: -0.42092317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coluna02
+      parentName: Coluna01
+      position: {x: -0.0051017585, y: -1.110223e-18, z: -3.4694467e-19}
+      rotation: {x: -0.9941788, y: -0.025455888, z: -0.002679765, w: 0.104658335}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Coluna03
+      parentName: Coluna02
+      position: {x: -0.0056876075, y: 9.906926e-35, z: 3.6815967e-20}
+      rotation: {x: -0.000000067055225, y: -9.313226e-10, z: 0.036039125, w: -0.9993504}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Coluna04
+      parentName: Coluna03
+      position: {x: -0.0039304574, y: 0.000016690423, z: -1.497222e-18}
+      rotation: {x: 0.5092822, y: -0.49054226, z: -0.5092821, w: -0.49054217}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: esq_Ombrin
+      parentName: Coluna04
+      position: {x: -0.006775558, y: -0.00083731086, z: 0.00023688198}
+      rotation: {x: 0.058345065, y: -0.014515936, z: -0.0000063180923, w: 0.998191}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: esq_Cutuvas
+      parentName: esq_Ombrin
+      position: {x: -0.00834117, y: 0.0000007394777, z: -0.00047251914}
+      rotation: {x: -0.70650846, y: -0.007965576, z: -0.007977887, w: 0.70761484}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: esq_exPulso
+      parentName: esq_Cutuvas
+      position: {x: -0.008136445, y: -0.000894677, z: -6.1076665e-11}
+      rotation: {x: 0.68018377, y: -0.24952042, z: 0.13536988, w: -0.6758436}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000005}
+    - name: esq_DedoCostal
+      parentName: esq_exPulso
+      position: {x: -0.0024112186, y: 0.000018493534, z: 0.00085847883}
+      rotation: {x: 0.033971064, y: 0.051535543, z: 0.042677578, w: 0.99718046}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: esq_DedoMeial
+      parentName: esq_DedoCostal
+      position: {x: -0.0016838553, y: -0.0000075615353, z: -0.00017175307}
+      rotation: {x: 0.24401428, y: 0.00010744106, z: -0.090477675, w: 0.9655418}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000005}
+    - name: esq_DedoFrontal
+      parentName: esq_DedoMeial
+      position: {x: -0.0013295865, y: -0.00011344683, z: -0.00033738813}
+      rotation: {x: -0.95676583, y: -0.055045642, z: -0.08788792, w: -0.27174404}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: joint1
+      parentName: esq_exPulso
+      position: {x: -0.0010193463, y: 0.00021642909, z: -0.0007836857}
+      rotation: {x: -0.91712767, y: -0.03879579, z: -0.38191453, w: 0.10729848}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+    - name: joint2
+      parentName: joint1
+      position: {x: -0.0017173833, y: -3.8917475e-20, z: 5.2041703e-20}
+      rotation: {x: -0.71364194, y: -0.20958525, z: -0.18835053, w: 0.6413372}
+      scale: {x: 1.0000004, y: 0.9999996, z: 0.99999994}
+    - name: joint3
+      parentName: joint2
+      position: {x: -0.0013985322, y: -2.2925192e-19, z: -2.0773838e-19}
+      rotation: {x: 0.6664985, y: -0.08891637, z: -0.041882988, w: 0.73899907}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: Pescotapa
+      parentName: Coluna04
+      position: {x: 0.000056885157, y: 0.0013485777, z: -0.00003705855}
+      rotation: {x: 0.5645314, y: -0.5307685, z: -0.46709892, w: 0.42591986}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: Cabecote
+      parentName: Pescotapa
+      position: {x: -0.00938773, y: -0.000033533965, z: 0.0000049096875}
+      rotation: {x: -0.5520236, y: 0.517201, z: 0.48218587, w: 0.44189343}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: dir_Ombrin
+      parentName: Coluna04
+      position: {x: 0.006775558, y: -0.00083732, z: 0.00023688198}
+      rotation: {x: 0.058250204, y: 0.027203485, z: 0.00097069144, w: 0.9979309}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: dir_Cutuvas
+      parentName: dir_Ombrin
+      position: {x: 0.008506188, y: 0.000000024600023, z: -0.000015744734}
+      rotation: {x: -0.7065085, y: -0.007965531, z: -0.007977856, w: 0.70761484}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: dir_exPulso
+      parentName: dir_Cutuvas
+      position: {x: 0.008114483, y: -0.0005530676, z: -4.606808e-12}
+      rotation: {x: 0.6551235, y: 0.2966285, z: -0.24200824, w: -0.6513499}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: dir_DedoCostal
+      parentName: dir_exPulso
+      position: {x: 0.0026039954, y: -0.000018499959, z: 0.00035495948}
+      rotation: {x: 0.032571934, y: 0.03543399, z: 0.038515016, w: 0.99809825}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: dir_DedoMeial
+      parentName: dir_DedoCostal
+      position: {x: 0.0016868493, y: -0.00006200844, z: 0.00030982646}
+      rotation: {x: 0.24325295, y: 0.037472486, z: -0.09208208, w: 0.9648547}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: dir_DedoFrontal
+      parentName: dir_DedoMeial
+      position: {x: 0.0013586894, y: 0.00018942282, z: 0.00020006506}
+      rotation: {x: -0.9567659, y: -0.055045724, z: -0.087887794, w: -0.2717437}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: joint11
+      parentName: dir_exPulso
+      position: {x: 0.0008959855, y: 0.000102551465, z: -0.001058423}
+      rotation: {x: -0.20925188, y: -0.6969798, z: -0.6174363, w: 0.29867238}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999994}
+    - name: joint21
+      parentName: joint11
+      position: {x: -0.001425384, y: -3.21986e-19, z: -1.7864987e-19}
+      rotation: {x: -0.2951432, y: -0.023218445, z: -0.1900224, w: 0.93607855}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: joint31
+      parentName: joint21
+      position: {x: -0.0016626423, y: 1.3221359e-19, z: -2.773882e-19}
+      rotation: {x: -0.035124853, y: -0.83265316, z: 0.53157145, w: 0.15128437}
+      scale: {x: 0.9999996, y: 1.0000002, z: 1}
+    - name: esq_Pernoca
+      parentName: Coluna01
+      position: {x: 0.0009838504, y: 0.0016456395, z: -0.0043232767}
+      rotation: {x: -0.029005703, y: -0.5187068, z: -0.854265, w: -0.018254489}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: esq_Joelheira
+      parentName: esq_Pernoca
+      position: {x: -0.005097665, y: -0.0000649523, z: 0.0004123883}
+      rotation: {x: 0.78362477, y: 0.061705247, z: -0.048413463, w: 0.6162635}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: esq_Aquiles
+      parentName: esq_Joelheira
+      position: {x: -0.009745451, y: 0.00035196036, z: -0.00002856947}
+      rotation: {x: -0.7064241, y: -0.7076219, z: -0.010820895, w: 0.01091814}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: esq_Pezin
+      parentName: esq_Aquiles
+      position: {x: -0.0066377996, y: -7.0895226e-19, z: -5.847589e-19}
+      rotation: {x: -0.021425994, y: -0.70605844, z: -0.012656183, w: 0.7077162}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: dir_Pernoca
+      parentName: Coluna01
+      position: {x: 0.000983889, y: -0.0002581173, z: 0.0046186857}
+      rotation: {x: -0.01679647, y: 0.7229966, z: -0.6894164, w: 0.041217584}
+      scale: {x: 0.99999964, y: 0.9999998, z: 0.99999976}
+    - name: dir_Joelheira
+      parentName: dir_Pernoca
+      position: {x: -0.0051405006, y: 0.000056059507, z: 0.0003406439}
+      rotation: {x: -0.76157165, y: -0.00023617127, z: -0.00029041801, w: 0.6480806}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: dir_Aquiles
+      parentName: dir_Joelheira
+      position: {x: -0.009746064, y: 0.00035311832, z: -0.0000008623068}
+      rotation: {x: 0.7049803, y: 0.70922685, z: 0.00034579635, w: -0.00030539228}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: dir_Pezin
+      parentName: dir_Aquiles
+      position: {x: -0.006637774, y: 1.9787581e-19, z: 1.3559035e-20}
+      rotation: {x: 0.70703435, y: -0.023945242, z: 0.7067013, w: 0.010125101}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: ControlasEsqPezin
+      parentName: ControladorMestre1
+      position: {x: -0.004691298, y: 0.0037022184, z: -0.00064914074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle14
+      parentName: ControlasEsqPezin
+      position: {x: -0.000017561939, y: -0.000020235806, z: 0.0066377455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle16
+      parentName: ControlasEsqPezin
+      position: {x: 3.9938697e-10, y: 0.00000006140037, z: -0.000007893414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorJoelhoEsq
+      parentName: ControlasEsqPezin
+      position: {x: 0.000119453965, y: 0.009728255, z: 0.023029545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControlasDirPezin
+      parentName: ControladorMestre1
+      position: {x: 0.0048489687, y: 0.0036634975, z: -0.00064807443}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle13
+      parentName: ControlasDirPezin
+      position: {x: 0.000021223044, y: 0.000027354083, z: 0.006637683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ControladorJoelhoDir
+      parentName: ControlasDirPezin
+      position: {x: -0.00015078783, y: 0.009766976, z: 0.02302848}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle17
+      parentName: ControlasDirPezin
+      position: {x: -0.0000000023707218, y: 0.00000013704054, z: -0.000007893225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 073178eec29c72846b94d033035c699b, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
