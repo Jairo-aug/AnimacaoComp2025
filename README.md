@@ -20,7 +20,7 @@ Esta seção será atualizada a cada projeto entregue, listando as tecnologias u
 | `02-sistema-particulas`| Unity (C#)                 | Sistema customizado de partículas com diferentes emissores, comportamentos e critérios de evolução.                       |                                                                                    |
 | `03-espectro-sonoro`   | Unity (C#)                 | Animação de cubos reativos à música, sincronizando escala, cor e iluminação com o espectro sonoro via FFT.                |                                                                                   |
 | `04-workflow-de-rig`   | Unity (C#) / Mixamo / Maya | Personagem 3D riggado realizando 3 animações simples: ajoelhado rezando, dança e pulo.                                                                                                  |
-
+| `05-lip-sync`          | Blender / Python | Personagem 3D com controle de movimentos da face, em sincrônia com o áudio.      
 ---
 
 
